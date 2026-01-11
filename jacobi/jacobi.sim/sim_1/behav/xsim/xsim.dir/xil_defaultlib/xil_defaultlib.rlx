@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Vivado_Projects/jacobi/jacobi.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Vivado_Projects/jacobi/jacobi.srcs/sim_1/new/testbench.v,1756483783,verilog,,,,tb,,,,,,,,
+C:/Vivado_Projects/jacobi/jacobi.srcs/sources_1/new/brent_luk_dataflow.v,1756198913,verilog,,C:/Vivado_Projects/jacobi/jacobi.srcs/sources_1/new/components.v,,pairs_generating,,,,,,,,
+C:/Vivado_Projects/jacobi/jacobi.srcs/sources_1/new/components.v,1756106674,verilog,,C:/Vivado_Projects/jacobi/jacobi.srcs/sources_1/new/cordic_sincos.v,,_16mux21x32;_4mux21x8;addsub;muxcordic;scalebyk,,,,,,,,
+C:/Vivado_Projects/jacobi/jacobi.srcs/sources_1/new/cordic_sincos.v,1756484026,verilog,,C:/Vivado_Projects/jacobi/jacobi.srcs/sources_1/new/registers.v,,sinx_cosx;vector_sinx_cosx,,,,,,,,
+C:/Vivado_Projects/jacobi/jacobi.srcs/sources_1/new/registers.v,1756483803,verilog,,C:/Vivado_Projects/jacobi/jacobi.srcs/sim_1/new/testbench.v,,diag_unit;eigan_vector_matrix;nondiag_unit;register,,,,,,,,

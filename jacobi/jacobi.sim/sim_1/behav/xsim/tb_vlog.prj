@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../jacobi.srcs/sources_1/new/brent_luk_dataflow.v" \
+"../../../../jacobi.srcs/sources_1/new/components.v" \
+"../../../../jacobi.srcs/sources_1/new/cordic_sincos.v" \
+"../../../../jacobi.srcs/sources_1/new/registers.v" \
+"../../../../jacobi.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
