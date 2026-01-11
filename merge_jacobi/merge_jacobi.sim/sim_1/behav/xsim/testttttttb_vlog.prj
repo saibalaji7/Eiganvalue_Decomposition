@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../merge_jacobi.srcs/sources_1/new/components.v" \
+"../../../../merge_jacobi.srcs/sources_1/new/cordic.v" \
+"../../../../merge_jacobi.srcs/sources_1/new/datapaths.v" \
+"../../../../merge_jacobi.srcs/sources_1/new/mergecordic.v" \
+"../../../../merge_jacobi.srcs/sources_1/new/regiters_processingelements.v" \
+"../../../../merge_jacobi.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

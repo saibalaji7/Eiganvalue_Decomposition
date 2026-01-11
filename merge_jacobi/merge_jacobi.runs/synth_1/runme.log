@@ -1,0 +1,712 @@
+
+*** Running vivado
+    with args -log jacobi.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source jacobi.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed Sep 10 19:14:41 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source jacobi.tcl -notrace
+Command: synth_design -top jacobi -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19956
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 848.035 ; gain = 479.133
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'andin', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:124]
+INFO: [Synth 8-11241] undeclared symbol 'nandin', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:125]
+INFO: [Synth 8-11241] undeclared symbol 'and0', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:130]
+INFO: [Synth 8-11241] undeclared symbol 'nand0', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:131]
+INFO: [Synth 8-11241] undeclared symbol 'and1', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:137]
+INFO: [Synth 8-11241] undeclared symbol 'nand1', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:138]
+INFO: [Synth 8-11241] undeclared symbol 'and2', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:144]
+INFO: [Synth 8-11241] undeclared symbol 'nand2', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:145]
+INFO: [Synth 8-11241] undeclared symbol 'and3', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:151]
+INFO: [Synth 8-11241] undeclared symbol 'nand3', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:152]
+INFO: [Synth 8-11241] undeclared symbol 'and4', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:159]
+INFO: [Synth 8-11241] undeclared symbol 'nand4', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:160]
+INFO: [Synth 8-11241] undeclared symbol 'and5', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:166]
+INFO: [Synth 8-11241] undeclared symbol 'nand5', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:167]
+INFO: [Synth 8-11241] undeclared symbol 'and6', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:174]
+INFO: [Synth 8-11241] undeclared symbol 'nand6', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:175]
+INFO: [Synth 8-11241] undeclared symbol 'and7', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:181]
+INFO: [Synth 8-11241] undeclared symbol 'nand7', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:182]
+INFO: [Synth 8-11241] undeclared symbol 'and8', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:189]
+INFO: [Synth 8-11241] undeclared symbol 'nand8', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:190]
+INFO: [Synth 8-11241] undeclared symbol 'and9', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:196]
+INFO: [Synth 8-11241] undeclared symbol 'nand9', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:197]
+INFO: [Synth 8-11241] undeclared symbol 'and10', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:204]
+INFO: [Synth 8-11241] undeclared symbol 'nand10', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:205]
+INFO: [Synth 8-11241] undeclared symbol 'and11', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:211]
+INFO: [Synth 8-11241] undeclared symbol 'nand11', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:212]
+INFO: [Synth 8-11241] undeclared symbol 'and12', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:219]
+INFO: [Synth 8-11241] undeclared symbol 'nand12', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:220]
+INFO: [Synth 8-11241] undeclared symbol 'and13', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:226]
+INFO: [Synth 8-11241] undeclared symbol 'nand13', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:227]
+INFO: [Synth 8-11241] undeclared symbol 'nand113', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:230]
+INFO: [Synth 8-11241] undeclared symbol 'and14', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:233]
+INFO: [Synth 8-11241] undeclared symbol 'nand14', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:234]
+INFO: [Synth 8-11241] undeclared symbol 'and15', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:240]
+INFO: [Synth 8-11241] undeclared symbol 'nand15', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:241]
+INFO: [Synth 8-11241] undeclared symbol 'c0', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:20]
+INFO: [Synth 8-11241] undeclared symbol 'nc0', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:21]
+INFO: [Synth 8-11241] undeclared symbol 'c1', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:33]
+INFO: [Synth 8-11241] undeclared symbol 'nc1', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:34]
+INFO: [Synth 8-11241] undeclared symbol 'c2', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'nc2', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:47]
+INFO: [Synth 8-11241] undeclared symbol 'c3', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:59]
+INFO: [Synth 8-11241] undeclared symbol 'nc3', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:60]
+INFO: [Synth 8-11241] undeclared symbol 'c4', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:72]
+INFO: [Synth 8-11241] undeclared symbol 'nc4', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:73]
+INFO: [Synth 8-11241] undeclared symbol 'c5', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:84]
+INFO: [Synth 8-11241] undeclared symbol 'nc5', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:85]
+INFO: [Synth 8-11241] undeclared symbol 'c6', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:98]
+INFO: [Synth 8-11241] undeclared symbol 'nc6', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:99]
+INFO: [Synth 8-11241] undeclared symbol 'c7', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:110]
+INFO: [Synth 8-11241] undeclared symbol 'nc7', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:111]
+INFO: [Synth 8-11241] undeclared symbol 'c8', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:122]
+INFO: [Synth 8-11241] undeclared symbol 'nc8', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:123]
+INFO: [Synth 8-11241] undeclared symbol 'c9', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:134]
+INFO: [Synth 8-11241] undeclared symbol 'nc9', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:135]
+INFO: [Synth 8-11241] undeclared symbol 'c10', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:146]
+INFO: [Synth 8-11241] undeclared symbol 'nc10', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:147]
+INFO: [Synth 8-11241] undeclared symbol 'c11', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:158]
+INFO: [Synth 8-11241] undeclared symbol 'nc11', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:159]
+INFO: [Synth 8-11241] undeclared symbol 'c12', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:171]
+INFO: [Synth 8-11241] undeclared symbol 'nc12', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:172]
+INFO: [Synth 8-11241] undeclared symbol 'c13', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:184]
+INFO: [Synth 8-11241] undeclared symbol 'nc13', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:185]
+INFO: [Synth 8-11241] undeclared symbol 'c14', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:196]
+INFO: [Synth 8-11241] undeclared symbol 'nc14', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:197]
+INFO: [Synth 8-11241] undeclared symbol 'c15', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:209]
+INFO: [Synth 8-11241] undeclared symbol 'nc15', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:210]
+INFO: [Synth 8-11241] undeclared symbol 'nc0q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:256]
+INFO: [Synth 8-11241] undeclared symbol 'nc0w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:257]
+INFO: [Synth 8-11241] undeclared symbol 'nc1q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:269]
+INFO: [Synth 8-11241] undeclared symbol 'nc1w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:270]
+INFO: [Synth 8-11241] undeclared symbol 'nc2q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:281]
+INFO: [Synth 8-11241] undeclared symbol 'nc2w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:282]
+INFO: [Synth 8-11241] undeclared symbol 'nc3q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:293]
+INFO: [Synth 8-11241] undeclared symbol 'nc3w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:294]
+INFO: [Synth 8-11241] undeclared symbol 'nc4q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:305]
+INFO: [Synth 8-11241] undeclared symbol 'nc4w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:306]
+INFO: [Synth 8-11241] undeclared symbol 'nc5q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:316]
+INFO: [Synth 8-11241] undeclared symbol 'nc5w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:317]
+INFO: [Synth 8-11241] undeclared symbol 'nc6q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:329]
+INFO: [Synth 8-11241] undeclared symbol 'nc6w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:330]
+INFO: [Synth 8-11241] undeclared symbol 'nc7q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:340]
+INFO: [Synth 8-11241] undeclared symbol 'nc7w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:341]
+INFO: [Synth 8-11241] undeclared symbol 'nc8q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:351]
+INFO: [Synth 8-11241] undeclared symbol 'nc8w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:352]
+INFO: [Synth 8-11241] undeclared symbol 'nc9q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:362]
+INFO: [Synth 8-11241] undeclared symbol 'nc9w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:363]
+INFO: [Synth 8-11241] undeclared symbol 'nc10q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:373]
+INFO: [Synth 8-11241] undeclared symbol 'nc10w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:374]
+INFO: [Synth 8-11241] undeclared symbol 'nc11q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:384]
+INFO: [Synth 8-11241] undeclared symbol 'nc11w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:385]
+INFO: [Synth 8-11241] undeclared symbol 'nc12q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:397]
+INFO: [Synth 8-11241] undeclared symbol 'nc12w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:398]
+INFO: [Synth 8-11241] undeclared symbol 'nc13q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:409]
+INFO: [Synth 8-11241] undeclared symbol 'nc13w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:410]
+INFO: [Synth 8-11241] undeclared symbol 'nc14q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:420]
+INFO: [Synth 8-11241] undeclared symbol 'nc14w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:421]
+INFO: [Synth 8-11241] undeclared symbol 'nc15q', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:432]
+INFO: [Synth 8-11241] undeclared symbol 'nc15w', assumed default net type 'wire' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:433]
+INFO: [Synth 8-6157] synthesizing module 'jacobi' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/datapaths.v:3]
+INFO: [Synth 8-6157] synthesizing module 'diagmergecordic' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:3]
+INFO: [Synth 8-6157] synthesizing module 'addsub' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'addsub' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:15]
+INFO: [Synth 8-6157] synthesizing module 'scalebyk' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'scalebyk' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:42]
+INFO: [Synth 8-6157] synthesizing module 'register' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/regiters_processingelements.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'register' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/regiters_processingelements.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'diagmergecordic' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:3]
+INFO: [Synth 8-6157] synthesizing module '_4mux21x8' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:27]
+INFO: [Synth 8-6155] done synthesizing module '_4mux21x8' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:27]
+INFO: [Synth 8-6157] synthesizing module 'nondiagmergecordic' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:239]
+INFO: [Synth 8-6155] done synthesizing module 'nondiagmergecordic' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/mergecordic.v:239]
+INFO: [Synth 8-6157] synthesizing module 'eigan_vector_matrix' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/regiters_processingelements.v:18]
+INFO: [Synth 8-6157] synthesizing module 'cordic_rot_control' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:262]
+INFO: [Synth 8-6155] done synthesizing module 'cordic_rot_control' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/cordic.v:262]
+INFO: [Synth 8-6155] done synthesizing module 'eigan_vector_matrix' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/regiters_processingelements.v:18]
+INFO: [Synth 8-6157] synthesizing module '_16mux21x32' [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:55]
+INFO: [Synth 8-6155] done synthesizing module '_16mux21x32' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'jacobi' (0#1) [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/datapaths.v:3]
+WARNING: [Synth 8-3936] Found unconnected internal register 'temp_reg' and it is trimmed from '64' to '48' bits. [C:/Vivado_Projects/merge_jacobi/merge_jacobi.srcs/sources_1/new/components.v:48]
+WARNING: [Synth 8-7129] Port zin[31] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[30] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[29] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[28] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[27] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[26] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[25] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[24] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[23] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[22] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[21] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[20] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[19] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[18] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zin[17] in module cordic_rot_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[31] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[30] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[29] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[28] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[27] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[26] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[25] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[24] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[23] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[22] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[21] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[20] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[19] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[18] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[17] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlq[16] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[31] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[30] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[29] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[28] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[27] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[26] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[25] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[24] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[23] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[22] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[21] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[20] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[19] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[18] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[17] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port controlw[16] in module nondiagmergecordic is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[31] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[30] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[29] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[28] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[27] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[26] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[25] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[24] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[23] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[22] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[21] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[20] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[19] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[18] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[17] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[16] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[15] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[14] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[13] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[12] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[11] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[10] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[9] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[8] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[7] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[6] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[5] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[4] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[3] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[2] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[1] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a31[0] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[31] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[30] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[29] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[28] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[27] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[26] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[25] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[24] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[23] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[22] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[21] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[20] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[19] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[18] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[17] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[16] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[15] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[14] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[13] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[12] in module jacobi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a32[11] in module jacobi is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 964.957 ; gain = 596.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 964.957 ; gain = 596.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 964.957 ; gain = 596.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 964.957 ; gain = 596.055
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 2432  
++---XORs : 
+	   2 Input      1 Bit         XORs := 64    
++---Registers : 
+	               32 Bit    Registers := 104   
++---Multipliers : 
+	              17x32  Multipliers := 144   
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2536  
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:51 . Memory (MB): peak = 1437.691 ; gain = 1068.789
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:52 . Memory (MB): peak = 1437.691 ; gain = 1068.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:01:00 . Memory (MB): peak = 1437.691 ; gain = 1068.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:01:08 . Memory (MB): peak = 1551.355 ; gain = 1182.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:01:09 . Memory (MB): peak = 1554.422 ; gain = 1185.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:59 ; elapsed = 00:01:19 . Memory (MB): peak = 1803.875 ; gain = 1434.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:07 ; elapsed = 00:01:27 . Memory (MB): peak = 1803.875 ; gain = 1434.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:28 . Memory (MB): peak = 1803.875 ; gain = 1434.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:10 ; elapsed = 00:01:30 . Memory (MB): peak = 1803.875 ; gain = 1434.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 | 26904|
+|3     |LUT1   |  1632|
+|4     |LUT2   | 27864|
+|5     |LUT3   | 10308|
+|6     |LUT4   | 77020|
+|7     |LUT5   |  4964|
+|8     |LUT6   |  5760|
+|9     |FDRE   |  3200|
+|10    |IBUF   |  1284|
+|11    |OBUF   |  4096|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+-----------------------+-------+
+|      |Instance     |Module                 |Cells  |
++------+-------------+-----------------------+-------+
+|1     |top          |                       | 163033|
+|2     |  p11        |diagmergecordic        |    332|
+|3     |    adda0_12 |addsub_278             |     15|
+|4     |    adda0_22 |addsub_279             |     15|
+|5     |    h11q     |scalebyk_280           |      5|
+|6     |    h12q     |scalebyk_281           |      5|
+|7     |    h22q     |scalebyk_282           |      5|
+|8     |    reg11    |register_283           |     97|
+|9     |    reg12    |register_284           |     66|
+|10    |    reg22    |register_285           |    108|
+|11    |    sub3     |addsub_286             |     16|
+|12    |  p12        |nondiagmergecordic     |  25534|
+|13    |    adda0_12 |addsub_264             |      8|
+|14    |    adda0_22 |addsub_265             |      8|
+|15    |    h11      |scalebyk_266           |    420|
+|16    |    h11q     |scalebyk_267           |    179|
+|17    |    h12      |scalebyk_268           |    420|
+|18    |    h12q     |scalebyk_269           |    179|
+|19    |    h21      |scalebyk_270           |    341|
+|20    |    h21q     |scalebyk_271           |    179|
+|21    |    h22      |scalebyk_272           |    725|
+|22    |    h22q     |scalebyk_273           |    179|
+|23    |    reg11    |register_274           |  22688|
+|24    |    reg12    |register_275           |     64|
+|25    |    reg21    |register_276           |     72|
+|26    |    reg22    |register_277           |     72|
+|27    |  p13        |nondiagmergecordic_0   |  24911|
+|28    |    adda0_12 |addsub_250             |      8|
+|29    |    adda0_22 |addsub_251             |      8|
+|30    |    h11      |scalebyk_252           |    420|
+|31    |    h11q     |scalebyk_253           |    179|
+|32    |    h12      |scalebyk_254           |    420|
+|33    |    h12q     |scalebyk_255           |    179|
+|34    |    h21      |scalebyk_256           |    341|
+|35    |    h21q     |scalebyk_257           |    179|
+|36    |    h22      |scalebyk_258           |    725|
+|37    |    h22q     |scalebyk_259           |    179|
+|38    |    reg11    |register_260           |    127|
+|39    |    reg12    |register_261           |     64|
+|40    |    reg21    |register_262           |  22010|
+|41    |    reg22    |register_263           |     72|
+|42    |  p14        |nondiagmergecordic_1   |   2925|
+|43    |    adda0_12 |addsub_236             |      8|
+|44    |    adda0_22 |addsub_237             |      8|
+|45    |    h11      |scalebyk_238           |    341|
+|46    |    h11q     |scalebyk_239           |    179|
+|47    |    h12      |scalebyk_240           |    341|
+|48    |    h12q     |scalebyk_241           |    179|
+|49    |    h21      |scalebyk_242           |    341|
+|50    |    h21q     |scalebyk_243           |    179|
+|51    |    h22      |scalebyk_244           |    646|
+|52    |    h22q     |scalebyk_245           |    179|
+|53    |    reg11    |register_246           |    127|
+|54    |    reg12    |register_247           |    127|
+|55    |    reg21    |register_248           |    135|
+|56    |    reg22    |register_249           |    135|
+|57    |  p22        |diagmergecordic_2      |    343|
+|58    |    adda0_12 |addsub_227             |     15|
+|59    |    adda0_22 |addsub_228             |     15|
+|60    |    h11q     |scalebyk_229           |      5|
+|61    |    h12q     |scalebyk_230           |      5|
+|62    |    h22q     |scalebyk_231           |      5|
+|63    |    reg11    |register_232           |    108|
+|64    |    reg12    |register_233           |     66|
+|65    |    reg22    |register_234           |    108|
+|66    |    sub3     |addsub_235             |     16|
+|67    |  p23        |nondiagmergecordic_3   |   2744|
+|68    |    adda0_12 |addsub_213             |      8|
+|69    |    adda0_22 |addsub_214             |      8|
+|70    |    h11      |scalebyk_215           |    341|
+|71    |    h11q     |scalebyk_216           |    179|
+|72    |    h12      |scalebyk_217           |    341|
+|73    |    h12q     |scalebyk_218           |    179|
+|74    |    h21      |scalebyk_219           |    341|
+|75    |    h21q     |scalebyk_220           |    179|
+|76    |    h22      |scalebyk_221           |    646|
+|77    |    h22q     |scalebyk_222           |    179|
+|78    |    reg11    |register_223           |    135|
+|79    |    reg12    |register_224           |     72|
+|80    |    reg21    |register_225           |     64|
+|81    |    reg22    |register_226           |     72|
+|82    |  p24        |nondiagmergecordic_4   |  24349|
+|83    |    adda0_12 |addsub_199             |      8|
+|84    |    adda0_22 |addsub_200             |      8|
+|85    |    h11      |scalebyk_201           |    420|
+|86    |    h11q     |scalebyk_202           |    179|
+|87    |    h12      |scalebyk_203           |    420|
+|88    |    h12q     |scalebyk_204           |    179|
+|89    |    h21      |scalebyk_205           |    341|
+|90    |    h21q     |scalebyk_206           |    179|
+|91    |    h22      |scalebyk_207           |    725|
+|92    |    h22q     |scalebyk_208           |    179|
+|93    |    reg11    |register_209           |    143|
+|94    |    reg12    |register_210           |    135|
+|95    |    reg21    |register_211           |  21298|
+|96    |    reg22    |register_212           |    135|
+|97    |  p33        |diagmergecordic_5      |    331|
+|98    |    adda0_12 |addsub_190             |     15|
+|99    |    adda0_22 |addsub_191             |     15|
+|100   |    h11q     |scalebyk_192           |      5|
+|101   |    h12q     |scalebyk_193           |      5|
+|102   |    h22q     |scalebyk_194           |      5|
+|103   |    reg11    |register_195           |     96|
+|104   |    reg12    |register_196           |     66|
+|105   |    reg22    |register_197           |    108|
+|106   |    sub3     |addsub_198             |     16|
+|107   |  p34        |nondiagmergecordic_6   |  23704|
+|108   |    adda0_12 |addsub_176             |      8|
+|109   |    adda0_22 |addsub_177             |      8|
+|110   |    h11      |scalebyk_178           |    420|
+|111   |    h11q     |scalebyk_179           |    179|
+|112   |    h12      |scalebyk_180           |    420|
+|113   |    h12q     |scalebyk_181           |    179|
+|114   |    h21      |scalebyk_182           |    341|
+|115   |    h21q     |scalebyk_183           |    179|
+|116   |    h22      |scalebyk_184           |    725|
+|117   |    h22q     |scalebyk_185           |    179|
+|118   |    reg11    |register_186           |    127|
+|119   |    reg12    |register_187           |    127|
+|120   |    reg21    |register_188           |     64|
+|121   |    reg22    |register_189           |  20748|
+|122   |  p44        |diagmergecordic_7      |    319|
+|123   |    adda0_12 |addsub                 |     15|
+|124   |    adda0_22 |addsub_168             |     15|
+|125   |    h11q     |scalebyk_169           |      5|
+|126   |    h12q     |scalebyk_170           |      5|
+|127   |    h22q     |scalebyk_171           |      5|
+|128   |    reg11    |register_172           |     96|
+|129   |    reg12    |register_173           |     65|
+|130   |    reg22    |register_174           |     97|
+|131   |    sub3     |addsub_175             |     16|
+|132   |  vecmat1    |eigan_vector_matrix    |  11504|
+|133   |    cordic1  |cordic_rot_control_128 |    834|
+|134   |      s1     |scalebyk_166           |    216|
+|135   |      s2     |scalebyk_167           |    204|
+|136   |    cordic2  |cordic_rot_control_129 |    834|
+|137   |      s1     |scalebyk_164           |    216|
+|138   |      s2     |scalebyk_165           |    204|
+|139   |    cordic3  |cordic_rot_control_130 |    834|
+|140   |      s1     |scalebyk_162           |    216|
+|141   |      s2     |scalebyk_163           |    204|
+|142   |    cordic4  |cordic_rot_control_131 |    834|
+|143   |      s1     |scalebyk_160           |    216|
+|144   |      s2     |scalebyk_161           |    204|
+|145   |    cordic5  |cordic_rot_control_132 |    834|
+|146   |      s1     |scalebyk_158           |    216|
+|147   |      s2     |scalebyk_159           |    204|
+|148   |    cordic6  |cordic_rot_control_133 |    834|
+|149   |      s1     |scalebyk_156           |    216|
+|150   |      s2     |scalebyk_157           |    204|
+|151   |    cordic7  |cordic_rot_control_134 |    834|
+|152   |      s1     |scalebyk_154           |    216|
+|153   |      s2     |scalebyk_155           |    204|
+|154   |    cordic8  |cordic_rot_control_135 |    834|
+|155   |      s1     |scalebyk_152           |    216|
+|156   |      s2     |scalebyk_153           |    204|
+|157   |    reg11    |register_136           |    302|
+|158   |    reg110   |register_137           |    302|
+|159   |    reg22    |register_138           |    302|
+|160   |    reg31    |register_139           |    302|
+|161   |    reg32    |register_140           |    302|
+|162   |    reg41    |register_141           |    302|
+|163   |    reg42    |register_142           |    302|
+|164   |    reg51    |register_143           |    302|
+|165   |    reg52    |register_144           |    302|
+|166   |    reg61    |register_145           |    302|
+|167   |    reg62    |register_146           |    302|
+|168   |    reg71    |register_147           |    302|
+|169   |    reg72    |register_148           |    302|
+|170   |    reg81    |register_149           |    302|
+|171   |    reg82    |register_150           |    302|
+|172   |    reg91    |register_151           |    302|
+|173   |  vecmat2    |eigan_vector_matrix_8  |  11504|
+|174   |    cordic1  |cordic_rot_control_88  |    834|
+|175   |      s1     |scalebyk_126           |    216|
+|176   |      s2     |scalebyk_127           |    204|
+|177   |    cordic2  |cordic_rot_control_89  |    834|
+|178   |      s1     |scalebyk_124           |    216|
+|179   |      s2     |scalebyk_125           |    204|
+|180   |    cordic3  |cordic_rot_control_90  |    834|
+|181   |      s1     |scalebyk_122           |    216|
+|182   |      s2     |scalebyk_123           |    204|
+|183   |    cordic4  |cordic_rot_control_91  |    834|
+|184   |      s1     |scalebyk_120           |    216|
+|185   |      s2     |scalebyk_121           |    204|
+|186   |    cordic5  |cordic_rot_control_92  |    834|
+|187   |      s1     |scalebyk_118           |    216|
+|188   |      s2     |scalebyk_119           |    204|
+|189   |    cordic6  |cordic_rot_control_93  |    834|
+|190   |      s1     |scalebyk_116           |    216|
+|191   |      s2     |scalebyk_117           |    204|
+|192   |    cordic7  |cordic_rot_control_94  |    834|
+|193   |      s1     |scalebyk_114           |    216|
+|194   |      s2     |scalebyk_115           |    204|
+|195   |    cordic8  |cordic_rot_control_95  |    834|
+|196   |      s1     |scalebyk_112           |    216|
+|197   |      s2     |scalebyk_113           |    204|
+|198   |    reg11    |register_96            |    302|
+|199   |    reg110   |register_97            |    302|
+|200   |    reg22    |register_98            |    302|
+|201   |    reg31    |register_99            |    302|
+|202   |    reg32    |register_100           |    302|
+|203   |    reg41    |register_101           |    302|
+|204   |    reg42    |register_102           |    302|
+|205   |    reg51    |register_103           |    302|
+|206   |    reg52    |register_104           |    302|
+|207   |    reg61    |register_105           |    302|
+|208   |    reg62    |register_106           |    302|
+|209   |    reg71    |register_107           |    302|
+|210   |    reg72    |register_108           |    302|
+|211   |    reg81    |register_109           |    302|
+|212   |    reg82    |register_110           |    302|
+|213   |    reg91    |register_111           |    302|
+|214   |  vecmat3    |eigan_vector_matrix_9  |  11504|
+|215   |    cordic1  |cordic_rot_control_48  |    834|
+|216   |      s1     |scalebyk_86            |    216|
+|217   |      s2     |scalebyk_87            |    204|
+|218   |    cordic2  |cordic_rot_control_49  |    834|
+|219   |      s1     |scalebyk_84            |    216|
+|220   |      s2     |scalebyk_85            |    204|
+|221   |    cordic3  |cordic_rot_control_50  |    834|
+|222   |      s1     |scalebyk_82            |    216|
+|223   |      s2     |scalebyk_83            |    204|
+|224   |    cordic4  |cordic_rot_control_51  |    834|
+|225   |      s1     |scalebyk_80            |    216|
+|226   |      s2     |scalebyk_81            |    204|
+|227   |    cordic5  |cordic_rot_control_52  |    834|
+|228   |      s1     |scalebyk_78            |    216|
+|229   |      s2     |scalebyk_79            |    204|
+|230   |    cordic6  |cordic_rot_control_53  |    834|
+|231   |      s1     |scalebyk_76            |    216|
+|232   |      s2     |scalebyk_77            |    204|
+|233   |    cordic7  |cordic_rot_control_54  |    834|
+|234   |      s1     |scalebyk_74            |    216|
+|235   |      s2     |scalebyk_75            |    204|
+|236   |    cordic8  |cordic_rot_control_55  |    834|
+|237   |      s1     |scalebyk_72            |    216|
+|238   |      s2     |scalebyk_73            |    204|
+|239   |    reg11    |register_56            |    302|
+|240   |    reg110   |register_57            |    302|
+|241   |    reg22    |register_58            |    302|
+|242   |    reg31    |register_59            |    302|
+|243   |    reg32    |register_60            |    302|
+|244   |    reg41    |register_61            |    302|
+|245   |    reg42    |register_62            |    302|
+|246   |    reg51    |register_63            |    302|
+|247   |    reg52    |register_64            |    302|
+|248   |    reg61    |register_65            |    302|
+|249   |    reg62    |register_66            |    302|
+|250   |    reg71    |register_67            |    302|
+|251   |    reg72    |register_68            |    302|
+|252   |    reg81    |register_69            |    302|
+|253   |    reg82    |register_70            |    302|
+|254   |    reg91    |register_71            |    302|
+|255   |  vecmat4    |eigan_vector_matrix_10 |  11504|
+|256   |    cordic1  |cordic_rot_control     |    834|
+|257   |      s1     |scalebyk_46            |    216|
+|258   |      s2     |scalebyk_47            |    204|
+|259   |    cordic2  |cordic_rot_control_11  |    834|
+|260   |      s1     |scalebyk_44            |    216|
+|261   |      s2     |scalebyk_45            |    204|
+|262   |    cordic3  |cordic_rot_control_12  |    834|
+|263   |      s1     |scalebyk_42            |    216|
+|264   |      s2     |scalebyk_43            |    204|
+|265   |    cordic4  |cordic_rot_control_13  |    834|
+|266   |      s1     |scalebyk_40            |    216|
+|267   |      s2     |scalebyk_41            |    204|
+|268   |    cordic5  |cordic_rot_control_14  |    834|
+|269   |      s1     |scalebyk_38            |    216|
+|270   |      s2     |scalebyk_39            |    204|
+|271   |    cordic6  |cordic_rot_control_15  |    834|
+|272   |      s1     |scalebyk_36            |    216|
+|273   |      s2     |scalebyk_37            |    204|
+|274   |    cordic7  |cordic_rot_control_16  |    834|
+|275   |      s1     |scalebyk_34            |    216|
+|276   |      s2     |scalebyk_35            |    204|
+|277   |    cordic8  |cordic_rot_control_17  |    834|
+|278   |      s1     |scalebyk               |    216|
+|279   |      s2     |scalebyk_33            |    204|
+|280   |    reg11    |register               |    302|
+|281   |    reg110   |register_18            |    302|
+|282   |    reg22    |register_19            |    302|
+|283   |    reg31    |register_20            |    302|
+|284   |    reg32    |register_21            |    302|
+|285   |    reg41    |register_22            |    302|
+|286   |    reg42    |register_23            |    302|
+|287   |    reg51    |register_24            |    302|
+|288   |    reg52    |register_25            |    302|
+|289   |    reg61    |register_26            |    302|
+|290   |    reg62    |register_27            |    302|
+|291   |    reg71    |register_28            |    302|
+|292   |    reg72    |register_29            |    302|
+|293   |    reg81    |register_30            |    302|
+|294   |    reg82    |register_31            |    302|
+|295   |    reg91    |register_32            |    302|
++------+-------------+-----------------------+-------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:31 . Memory (MB): peak = 1803.875 ; gain = 1434.973
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1585 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:11 ; elapsed = 00:01:31 . Memory (MB): peak = 1803.875 ; gain = 1434.973
+Synthesis Optimization Complete : Time (s): cpu = 00:01:11 ; elapsed = 00:01:31 . Memory (MB): peak = 1803.875 ; gain = 1434.973
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2261.980 ; gain = 2.734
+INFO: [Netlist 29-17] Analyzing 26904 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 2509.578 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 8a925854
+INFO: [Common 17-83] Releasing license: Synthesis
+132 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:41 ; elapsed = 00:03:09 . Memory (MB): peak = 2509.578 ; gain = 2143.633
+Write ShapeDB Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2509.578 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_Projects/merge_jacobi/merge_jacobi.runs/synth_1/jacobi.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:33 ; elapsed = 00:00:28 . Memory (MB): peak = 2509.578 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file jacobi_utilization_synth.rpt -pb jacobi_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 10 19:18:27 2025...
